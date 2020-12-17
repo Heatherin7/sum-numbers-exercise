@@ -1,12 +1,7 @@
-﻿using System;
-
-namespace SumNumbers
+﻿namespace SumNumbers
 {
-	public class SumCalculator
+    public class SumCalculator
 	{
-		public int CalcluateSum(int a, int b)
-		{
-			throw new NotImplementedException();
-		}
+		public int CalcluateSum(int a, int b) => a + b;
 	}
 }
